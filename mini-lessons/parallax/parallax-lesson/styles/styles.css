@@ -9,7 +9,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-attachment: fixed;
-  position: relative
+  position: relative;
 }
 
 .moon {
@@ -21,8 +21,6 @@ body {
   left: 50px;
   top: 175px;
   z-index: 999;
-
-
 }
 
 .star {
@@ -59,17 +57,47 @@ body {
   width: 100vw;
   height: 100vh;
   background-attachment: fixed;
-  position: relative
+  position: relative;
+  display: flex;
+  align-content: center;
 }
+
+.yosemite-text {
+  font-size: 50px;
+  color: white;
+  background-color: rgba(0,0,0,.8);
+  border-radius: 5px;
+  height: 75px;
+  width:830px;
+  text-align: center;
+  line-height:75px;
+  margin: auto;
+}
+
 .san-fran {
   background: url(san-francisco.jpg) center center no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
   background-attachment: fixed;
-  position: relative
+  position: relative;
+  display: flex;
+  align-content: center;
 }
 
 .links {
+  color: white;
   font-size: 1.5em;
+  bottom: 50px;
+  right: 50px;
+  height: 30vh;
+  width: 70vw;
+  background-color: rgba(0, 0, 0, .8);
+  margin:auto;
+  align-content: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+a {
+  color: white;
 }
