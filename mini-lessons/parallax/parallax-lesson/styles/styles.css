@@ -3,8 +3,11 @@ body {
   height: 300vh;
 }
 
+main {
+}
+
 .space-container {
-  background: url(starfield-background.jpg) center center no-repeat;
+  background: url(star1.jpg) center center no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -19,7 +22,7 @@ body {
   height: 250px;
   width: 250px;
   left: 50px;
-  top: 175px;
+  top: 185px;
   z-index: 999;
 }
 
@@ -52,7 +55,7 @@ body {
 }
 
 .yosemite {
-  background: url(evening.jpg) center center no-repeat;
+  background: url(paoWS.jpg) center center no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -101,3 +104,25 @@ body {
 a {
   color: white;
 }
+
+.scroll-button {
+  background-color: rgba(0, 0, 0, .5);
+  /*background-color: red;*/
+  position: fixed;
+  margin: auto;
+  transform: translate(-50%, 0);
+  left:50vw;
+  bottom:0px;
+  height: 50px;
+  width: 75px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll-button-arrow {
+  height: 60%;
+}
+

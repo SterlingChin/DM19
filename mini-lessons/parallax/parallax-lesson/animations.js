@@ -8,6 +8,11 @@ $(window).on('scroll', function() {
     'transform': 'translateY(-' + winScroll / 6.5 + '%)'
   });
     $('.headline').css({
-    'transform': 'translate(+' + winScroll / 8 + '%)'
+    'transform': 'translate(+' + winScroll / 8.5 + '%)'
   });
 });
+
+$('.scroll-button').click(function(){
+    $("body").animate({ scrollTop: window.pageYOffset + $(window).height()}, 1000);
+    return false;
+ });
