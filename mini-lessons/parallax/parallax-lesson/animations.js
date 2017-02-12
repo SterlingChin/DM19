@@ -13,6 +13,12 @@ $(window).on('scroll', function() {
 });
 
 $('.scroll-button').click(function(){
-    $("body").animate({ scrollTop: window.pageYOffset + $(window).height()}, 1000);
+    $("body").animate({ scrollTop: window.pageYOffset + $(window).height()}, 2000);
     return false;
  });
+
+
+ //wheel scroll across and rotate
+ //marble works goes to certain point, click, do something, then move to the next one.
+ //fadein/fadeout changing views
+ //morphing shapes
